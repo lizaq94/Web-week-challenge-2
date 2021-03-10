@@ -280,7 +280,7 @@ html {
 
 .big__img {
   width: 100%;
-  height: 65vh;
+  /* height: 65vh; */
   overflow: hidden;
   padding-right: 1rem;
 }
@@ -307,6 +307,93 @@ html {
 .gallery__button:hover {
   background-color: #49728b;
 }
+
+.subscribe{
+  background-image: url(../img/sub_bg.png);
+  background-position-x: 15vw;
+  background-repeat: no-repeat;
+}
+
+
+.subscribe__row {
+  height: 45vh;
+  display: flex;
+  align-content: center;
+}
+
+.subscribe__title {
+  font-size: 4rem;
+  /* font-weight: var(--bold); */
+
+}
+
+.subscribe__paragraph {
+  text-align: left;
+  width: 60%;
+  padding: 2rem 0;
+  font-size: 1.7rem;
+}
+
+.subscribe__form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.form__item {
+  width: 65%;
+  height: 5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  margin-right: 3rem;;
+}
+
+.subscribe__button {
+  background-color: #96b92c;
+  height: 5rem;
+  padding: 0 4.5rem;
+}
+
+.subscribe__button:hover {
+    background-color: #7d9b24;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .red {
   background-color: red;
